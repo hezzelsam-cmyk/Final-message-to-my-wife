@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>...</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+
+      background: linear-gradient(to bottom, #0b0b0b, #1a1a1a);
+
+      color: #f1f1f1;
+
+      font-family: Arial, sans-serif;
+
+      min-height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      overflow-y: auto;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+
+      text-align: center;
+
+      padding: 80px 0;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.9;
+
+      margin: 25px 0;
+
+      opacity: 0;
+
+      animation: fadeIn 2s forwards;
+    }
+
+    p:nth-child(1) {
+      animation-delay: 0.5s;
+    }
+
+    p:nth-child(2) {
+      animation-delay: 2s;
+    }
+
+    p:nth-child(3) {
+      animation-delay: 3.5s;
+    }
+
+    p:nth-child(4) {
+      animation-delay: 5s;
+    }
+
+    .next-btn {
+      margin-top: 50px;
+
+      padding: 12px 28px;
+
+      border: 1px solid #777;
+
+      background: transparent;
+
+      color: white;
+
+      font-size: 16px;
+
+      cursor: pointer;
+
+      border-radius: 8px;
+
+      opacity: 0;
+
+      animation: fadeIn 2s forwards;
+
+      animation-delay: 7s;
+
+      transition: 0.3s ease;
+    }
+
+    .next-btn:hover {
+      border-color: white;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <p>
+      I don’t expect a response from you, and there is no rush in reading this.
+    </p>
+
+    <p>
+      This isn’t something I wrote to start a conversation.
+    </p>
+
+    <p>
+      It’s simply everything I realised and couldn’t say properly, put in one place.
+    </p>
+
+    <p>
+      Whenever you’re ready, you can continue.
+    </p>
+
+    <button class="next-btn" onclick="window.location.href='page2.html'">
+      Next →
+    </button>
+
+  </div>
+
+</body>
+
+</html>
