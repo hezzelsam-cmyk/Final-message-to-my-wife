@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>...</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+
+      background: linear-gradient(to bottom, #0b0b0b, #1a1a1a);
+
+      color: #f1f1f1;
+
+      font-family: Arial, sans-serif;
+
+      min-height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      overflow-y: auto;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+
+      text-align: center;
+
+      padding: 80px 0;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.9;
+
+      margin: 35px 0;
+
+      opacity: 0;
+
+      animation: fadeIn 2s forwards;
+    }
+
+    p:nth-child(1) {
+      animation-delay: 0.5s;
+    }
+
+    p:nth-child(2) {
+      animation-delay: 3s;
+    }
+
+    p:nth-child(3) {
+      animation-delay: 5.5s;
+    }
+
+    p:nth-child(4) {
+      animation-delay: 8s;
+    }
+
+    .next-btn {
+      margin-top: 60px;
+
+      padding: 12px 28px;
+
+      border: 1px solid #777;
+
+      background: transparent;
+
+      color: white;
+
+      font-size: 16px;
+
+      cursor: pointer;
+
+      border-radius: 8px;
+
+      opacity: 0;
+
+      animation: fadeIn 2s forwards;
+
+      animation-delay: 10.5s;
+
+      transition: 0.3s ease;
+    }
+
+    .next-btn:hover {
+      border-color: white;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <p>
+      I realised that l showed you l loved you too much not that that was a bad thing or l regret it its that l loved you to a point you felt you could do or say whatever you wanted and l would still love you the same. At the beginning of our relationship l had a lot of pride and ego, but over time l realised l actually wanted to connect with you and learn parts of you no one else bothered to learn and l did.
+    </p>
+
+    <p>
+      I learned every part of you. I could tell how you felt just by looking into your eyes. I learned your likes, dislikes, dreams, goals, triggers and fears because making you smile became everything to me. So l began to love you without holding back.
+    </p>
+
+    <p>
+      I thought you weren’t the type of person who needed someone to love them less just to feel the love, but slowly you became that, calling it “boring.” I don’t know what changed because you,would even get mad if l forgot to say goodmorning. I fought and stayed this long not because l couldn’t do better or find someone else, but because l didn’t want better, l wanted you.
+    </p>
+
+    <p>
+      I tried and tried to speak to your soul and heart but your pride and ego mistook me for being desperate. There were times l wanted to give up and let you go, but l always went back to that letter you wrote me, the words: “Please don’t give up on me.” l remember you giving me the letter and the look on your face as l read it. l couldnt just give up like that. That girl deserves someone who would be there even in the toughest times so l stayed and continued fighting for you eachday.
+    </p>
+
+    <button class="next-btn" onclick="window.location.href='page3.html'">
+      Next →
+    </button>
+
+  </div>
+
+</body>
+
+</html>
